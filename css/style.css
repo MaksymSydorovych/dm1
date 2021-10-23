@@ -2,7 +2,14 @@
 	margin: 0;
 	padding: 0;
 }
-
+h1,
+h2,
+h3 {
+	font-family: "Bree Serif", serif;
+}
+p {
+	font-family: "Zen Antique Soft", serif;
+}
 nav {
 	font-size: 30px;
 	background: rgb(105, 78, 52);
@@ -12,6 +19,7 @@ nav {
 		rgba(105, 78, 52, 1) 44%,
 		rgba(73, 47, 4, 1) 78%
 	);
+	font-family: "Bree Serif", serif;
 }
 ul {
 	margin-left: 25px;
@@ -29,7 +37,7 @@ ul {
 	background: repeating-linear-gradient(
 		180deg,
 		#46300d 1px,
-		#694e34 20px,
+		#694e34 40px,
 		#492f04 40px
 	);
 	margin: 0;
